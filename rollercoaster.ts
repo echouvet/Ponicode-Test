@@ -1,5 +1,5 @@
 //Add input to the root of this repository and set the filename string below
-const filename:string = "roller_coaster.hard"
+const filename:string = "input.txt"
 
 // Read the file and split it into lines
 const lines:Array<string> = require('fs').readFileSync(`./${filename}`, 'utf-8').split('\n')
